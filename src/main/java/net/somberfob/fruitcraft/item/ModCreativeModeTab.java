@@ -10,4 +10,10 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.BANANA.get());
         }
     };
+    public static final CreativeModeTab TOOLS_TAB = new CreativeModeTab("tools_tab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.CUTTING_KNIFE.get());
+        }
+    };
 }

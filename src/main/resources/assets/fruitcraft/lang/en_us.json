@@ -4,5 +4,9 @@
   "item.fruitcraft.orange": "Orange",
   "item.fruitcraft.avocado": "Avocado",
   "item.fruitcraft.avocado_open": "Avocado Open",
-  "itemGroup.fruits": "Fruits"
+
+  "item.fruitcraft.cutting_knife": "Cutting Knife",
+
+  "itemGroup.fruits": "Fruits",
+  "itemGroup.tools_tab": "Tools Tab"
 }

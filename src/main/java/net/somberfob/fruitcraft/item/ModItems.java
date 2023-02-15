@@ -1,5 +1,7 @@
 package net.somberfob.fruitcraft.item;
 
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.somberfob.fruitcraft.FruitCraft;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +23,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FRUITS).stacksTo(64)));
     public static final RegistryObject<Item> AVOCADO_OPEN = ITEMS.register("avocado_open",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FRUITS).food(ModFoods.BANANA)));
+
+    public static final RegistryObject<Item> CUTTING_KNIFE = ITEMS.register("cutting_knife",
+            () -> new SwordItem(Tiers.GOLD, 1, 2f,
+                    new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB).stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {
