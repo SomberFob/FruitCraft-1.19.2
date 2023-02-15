@@ -17,6 +17,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FRUITS).food(ModFoods.BANANA)));
     public static final RegistryObject<Item> PEAR = ITEMS.register("pear",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FRUITS).food(ModFoods.BANANA)));
+    public static final RegistryObject<Item> AVOCADO = ITEMS.register("avocado",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FRUITS).stacksTo(64)));
+    public static final RegistryObject<Item> AVOCADO_OPEN = ITEMS.register("avocado_open",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FRUITS).food(ModFoods.BANANA)));
 
 
     public static void register(IEventBus eventBus) {

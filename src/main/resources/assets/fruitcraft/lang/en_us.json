@@ -2,5 +2,7 @@
   "item.fruitcraft.banana": "Banana",
   "item.fruitcraft.pear": "Pear",
   "item.fruitcraft.orange": "Orange",
+  "item.fruitcraft.avocado": "Avocado",
+  "item.fruitcraft.avocado_open": "Avocado Open",
   "itemGroup.fruits": "Fruits"
 }
