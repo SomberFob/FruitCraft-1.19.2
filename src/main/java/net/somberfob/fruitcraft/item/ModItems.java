@@ -13,6 +13,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> BANANA = ITEMS.register("banana",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FRUITS).food(ModFoods.BANANA)));
+    public static final RegistryObject<Item> ORANGE = ITEMS.register("orange",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FRUITS).food(ModFoods.BANANA)));
+    public static final RegistryObject<Item> PEAR = ITEMS.register("pear",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FRUITS).food(ModFoods.BANANA)));
 
 
     public static void register(IEventBus eventBus) {
